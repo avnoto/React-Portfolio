@@ -1,5 +1,8 @@
 import React from 'react';
 import './style.css';
+import About from '../../links/About';
+import Contact from '../../links/Contact';
+import Portfolio from '../../links/Portfolio';
 
 function Navbar() {
   return (
@@ -21,19 +24,13 @@ function Navbar() {
           <div className='collapse navbar-collapse' id='navbarSupportedContent'>
             <ul className='navbar-nav ml-auto'>
               <li className='nav-item'>
-                <a className='nav-link' href='index.html'>
-                  About
-                </a>
+                <About />
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='portfolio.html'>
-                  Portfolio
-                </a>
+                <Portfolio />
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='contact.html'>
-                  Contact
-                </a>
+                <Contact />
               </li>
             </ul>
           </div>
