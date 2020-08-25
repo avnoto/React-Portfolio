@@ -135,7 +135,11 @@ function Portfolio() {
                 <h4 className='card-title'>Connect with Me</h4>
                 <hr />
                 <p>
-                  <a href='https://github.com/avnoto' target='_blank'>
+                  <a
+                    href='https://github.com/avnoto'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <img
                       src={iconfinder_mark}
                       className='social p-2'
@@ -145,6 +149,7 @@ function Portfolio() {
                   <a
                     href='https://www.linkedin.com/in/alexandra-noto-2a44861a6?trk=people-guest_people_search-card'
                     target='_blank'
+                    rel='noopener noreferrer'
                   >
                     <img
                       src={iconfinder_square}
@@ -155,6 +160,7 @@ function Portfolio() {
                   <a
                     href='https://stackoverflow.com/users/13124073/avnoto'
                     target='_blank'
+                    rel='noopener noreferrer'
                   >
                     <img
                       src={iconfinder_Stack_Overflow_1298710}
