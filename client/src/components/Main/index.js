@@ -7,8 +7,8 @@ import Portfolio from '../Portfolio';
 const Main = () => {
   return (
     <Switch>
-      {About}
       {/* The Switch decides which component to show based on the current URL.*/}
+      <Route exact path='/' component={About}></Route>
       <Route exact path='/about' component={About}></Route>
       <Route exact path='/contact' component={Contact}></Route>
       <Route exact path='/portfolio' component={Portfolio}></Route>
