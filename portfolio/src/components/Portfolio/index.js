@@ -1,13 +1,13 @@
 import React from 'react';
 import './style.css';
-import { iconfinder_mark } from '../../assets/images/github_298822.png';
-import { iconfinder_Stack_Overflow_1298710 } from '../../assets/images/iconfinder_Stack_Overflow_1298710.png';
-import { iconfinder_square } from '../../assets/images/iconfinder_square.png';
-import { wordgamescrnshot } from '../../assets/images/wordgamescrnshot.png';
-import { codequizscrnshot } from '../../assets/images/codequizscrnshot.png';
-import { dayplannerpic1 } from '../../assets/images/dayplannerpic1.png';
-import { weatherapppic } from '../../assets/images/weather-app-scrnshot1.png';
-import { playpic } from '../../assets/images/2PLAYimg.png';
+import iconfinder_mark from '../../assets/images/iconfinder_mark-github_298822.png';
+import iconfinder_Stack_Overflow_1298710 from '../../assets/images/iconfinder_Stack_Overflow_1298710.png';
+import iconfinder_square from '../../assets/images/iconfinder_square-linkedin_317725.png';
+import wordgamescrnshot from '../../assets/images/wordgamescrnshot.png';
+import codequizscrnshot from '../../assets/images/codequizscrnshot.png';
+import dayplannerpic1 from '../../assets/images/dayplannerpic1.png';
+import weatherapppic from '../../assets/images/weather-app-scrnshot1.png';
+import playpic from '../../assets/images/2PLAYimg.png';
 
 function Portfolio() {
   return (

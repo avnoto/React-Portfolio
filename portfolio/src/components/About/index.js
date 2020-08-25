@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
-import { DSC03189 } from '../../assets/images/DSC03189(2).JPG';
-import { iconfinder_mark } from '../../assets/images/github_298822.png';
-import { iconfinder_Stack_Overflow_1298710 } from '../../assets/images/iconfinder_Stack_Overflow_1298710.png';
-import { iconfinder_square } from '../../assets/images/iconfinder_square.png';
+import DSC03189 from '../../assets/images/DSC03189(2).JPG';
+import iconfinder_mark from '../../assets/images/iconfinder_mark-github_298822.png';
+import iconfinder_Stack_Overflow_1298710 from '../../assets/images/iconfinder_Stack_Overflow_1298710.png';
+import iconfinder_square from '../../assets/images/iconfinder_square-linkedin_317725.png';
 
 function About() {
   return (

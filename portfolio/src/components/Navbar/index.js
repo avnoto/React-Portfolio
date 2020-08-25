@@ -1,8 +1,6 @@
 import React from 'react';
 import './style.css';
-import About from '../../links/About';
-import Contact from '../../links/Contact';
-import Portfolio from '../../links/Portfolio';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -24,13 +22,19 @@ function Navbar() {
           <div className='collapse navbar-collapse' id='navbarSupportedContent'>
             <ul className='navbar-nav ml-auto'>
               <li className='nav-item'>
-                <About />
+                <Link to='/about'>
+                  <a className='nav-link'>About</a>
+                </Link>
               </li>
               <li className='nav-item'>
-                <Portfolio />
+                <Link to='/portfolio'>
+                  <a className='nav-link'>Portfolio</a>
+                </Link>
               </li>
               <li className='nav-item'>
-                <Contact />
+                <Link to='/contact'>
+                  <a className='nav-link'>Contact</a>
+                </Link>
               </li>
             </ul>
           </div>
